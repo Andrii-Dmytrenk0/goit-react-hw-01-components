@@ -17,7 +17,6 @@ export const App = () => {
       alignItems: 'center',
       fontSize: 30,
       color: '#010101',
-      backgroundColor: '#eeeeee',
     }}>
     <User user={profile}/>
     <Statistics title="Upload stats" statistics={stats} />
