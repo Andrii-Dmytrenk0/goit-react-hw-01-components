@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import css from './profile.module.css';
+// import css from './profile.module.css';
 
 export default function User ({ user: { username, tag, location, avatar, stats } }) {
   return (
-    <div className={css.profile}>
+    <div class="profile">
       <div class="description">
         <img
           src={avatar}
