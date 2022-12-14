@@ -9,7 +9,16 @@ import history from './TransactionHistory/transactions'
 
 
 export const App = () => {
-  return <div>
+  return <div
+    style={{
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      fontSize: 30,
+      color: '#010101',
+      backgroundColor: '#eeeeee',
+    }}>
     <User user={profile}/>
     <Statistics title="Upload stats" statistics={stats} />
     <Statistics statistics={stats} />
